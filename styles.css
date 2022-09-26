@@ -1,0 +1,24 @@
+/*the guides are initially visible*/
+.challenge > .guide , .global-challenge > .guide  {
+    display: none;
+}
+
+/*when i hover the challenge , its guide will be shown */
+.challenge:hover > .guide{
+    display: block;
+    color : slategray;
+    text-decoration: underline;
+}
+
+
+.global-challenge:hover > .guide{
+    display: block;
+    color : blue;
+    text-decoration: underline;
+}
+
+/*a special style to the premium challenge guide*/
+.premium-challenge > .guide {
+    background-color: gold;
+    text-align: center;
+}
