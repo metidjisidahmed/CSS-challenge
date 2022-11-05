@@ -3,7 +3,7 @@
     display: none;
 }
 
-/*when i hover the challenge , its guide will be shown */
+/*!*when i hover the challenge , its guide will be shown *!*/
 .challenge:hover > .guide{
     display: block;
     color : slategray;
